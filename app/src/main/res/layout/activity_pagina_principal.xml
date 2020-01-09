@@ -17,34 +17,27 @@
         android:orientation="vertical"
         android:gravity="center"
         android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tiá orróqui maráma matíca ó macáca"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal">
+
+            </TextView>
     </LinearLayout>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_introduccion"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            app:cardElevation="6dp"
-            app:cardCornerRadius="12dp"
-            android:layout_margin="5dp"
-            app:cardBackgroundColor="@color/cardview_light_background">
-
-                <TextView
-                    android:text="Introducción"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="#410F0F"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="12dp" />
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/btn_vocabulario"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            app:cardElevation="6dp"
-            app:cardCornerRadius="12dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
             android:layout_margin="5dp"
             app:cardBackgroundColor="@color/cardview_light_background">
 
@@ -55,23 +48,118 @@
                 android:padding="12dp"
                 android:orientation="vertical">
 
-                <TextView
-                    android:text="Vocabulario"
-                    android:layout_width="wrap_content"
+                <RelativeLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="#410F0F"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="12dp" />
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/intro"
+                        android:src="@drawable/afojor"/>
+
+
+                    <TextView
+                        android:text="Introducción"
+                        android:id="@+id/introduccion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/intro"
+                        android:layout_toEndOf="@id/intro"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:text="El diccionario y enciclopedia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#a9a9a9"
+                        android:layout_toRightOf="@id/intro"
+                        android:layout_toEndOf="@id/intro"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_below="@id/introduccion"
+                        android:layout_gravity="center" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_vocabulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="12dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/im_vocabulario"
+                        android:src="@drawable/oterra"/>
+
+
+                    <TextView
+                        android:text="Vocabulario"
+                        android:id="@+id/vocabulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/im_vocabulario"
+                        android:layout_toEndOf="@id/im_vocabulario"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:text="Orróqui maráma ó matíca\n\nOrróqui maráma mafolíca ó turúconh\n\nNí arára óyu nínhca ipcorróye"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#a9a9a9"
+                        android:layout_toRightOf="@id/im_vocabulario"
+                        android:layout_toEndOf="@id/im_vocabulario"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_below="@id/vocabulario"
+                        android:layout_gravity="center" />
+
+                </RelativeLayout>
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_agricultura"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            app:cardElevation="6dp"
-            app:cardCornerRadius="12dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
             android:layout_margin="5dp"
             app:cardBackgroundColor="@color/cardview_light_background">
 
@@ -82,15 +170,47 @@
                 android:padding="12dp"
                 android:orientation="vertical">
 
-
-                <TextView
-                    android:text="Agricultura tradicional"
-                    android:layout_width="wrap_content"
+                <RelativeLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="#410F0F"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="12dp" />
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/hoja"
+                        android:src="@drawable/agricultura"/>
+
+
+                    <TextView
+                        android:text="Agricultura tradicional"
+                        android:id="@+id/agricultura_tradicional"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/hoja"
+                        android:layout_toEndOf="@id/hoja"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:text="Tiá orróqui maráma matíca ó macáca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textColor="#a9a9a9"
+                        android:layout_toRightOf="@id/hoja"
+                        android:layout_toEndOf="@id/hoja"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_below="@id/agricultura_tradicional"
+                        android:layout_gravity="center" />
+
+                </RelativeLayout>
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
