@@ -27,9 +27,9 @@ public class Splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent actividad = new Intent(Splash.this, Splash.class);
+                Intent actividad = new Intent(Splash.this, pagina_principal.class);
                 startActivity(actividad);
-                sonido.release();
+                //sonido.release();
                 finish();
             }
         }, TIEMPO);
