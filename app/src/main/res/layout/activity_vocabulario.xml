@@ -12,6 +12,12 @@
         android:orientation="vertical">
 
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/titulo_vocabulario1"/>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_ainh"
             android:layout_width="match_parent"
@@ -340,6 +346,361 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_ihunhoqui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/ihunhoqui"
+                        android:src="@drawable/ihunhoqui"/>
+
+                    <TextView
+                        android:text="lhunhóquí cúru \n Junhóquí cúru"
+                        android:id="@+id/txt_ihunhoqui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/ihunhoqui"
+                        android:layout_toEndOf="@id/ihunhoqui"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_cafata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/cafata"
+                        android:src="@drawable/cafata"/>
+
+                    <TextView
+                        android:text="Cafáta"
+                        android:id="@+id/txt_cafata"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/cafata"
+                        android:layout_toEndOf="@id/cafata"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_ihuli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/ihuli"
+                        android:src="@drawable/ihuli"/>
+
+                    <TextView
+                        android:text="lhúli suírra aúnha \n júli suírra aúnha"
+                        android:id="@+id/txt_ihuli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/ihuli"
+                        android:layout_toEndOf="@id/ihuli"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_errefa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/errefa"
+                        android:src="@drawable/errefa"/>
+
+                    <TextView
+                        android:text="Erréfa"
+                        android:id="@+id/txt_errefa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/errefa"
+                        android:layout_toEndOf="@id/errefa"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_pina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/pina"
+                        android:src="@drawable/pina"/>
+
+                    <TextView
+                        android:text="Pína"
+                        android:id="@+id/txt_pina"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/pina"
+                        android:layout_toEndOf="@id/pina"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_porilh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/porilh"
+                        android:src="@drawable/porilh"/>
+
+                    <TextView
+                        android:text="pórilh (pórilhá maráma) \n pórij (pórijá maráma)"
+                        android:id="@+id/txt_porilh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/porilh"
+                        android:layout_toEndOf="@id/porilh"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_chiquitarequi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/chiquitarequi"
+                        android:src="@drawable/chiquitarequi"/>
+
+                    <TextView
+                        android:text="Chiquítaréqui cúru"
+                        android:id="@+id/txt_chiquitarequi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/chiquitarequi"
+                        android:layout_toEndOf="@id/chiquitarequi"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/cardview_light_background"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_principal"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/cardview_light_background"
+                app:srcCompat="@drawable/home" />
+
+            <ImageButton
+                android:id="@+id/btn_adelante"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/cardview_light_background"
+                app:srcCompat="@drawable/adelante" />
+        </RelativeLayout>
 
     </LinearLayout>
 
