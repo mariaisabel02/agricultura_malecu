@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".vocabulario2"></activity>
+        <activity android:name=".vocabulario3"></activity>
+        <activity android:name=".vocabulario2" />
         <activity android:name=".vocabulario" />
         <activity android:name=".introduccion" />
         <activity android:name=".pagina_principal" />
