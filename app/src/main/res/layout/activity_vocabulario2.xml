@@ -441,6 +441,523 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_nharilhunh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/nharilhunh"
+                        android:src="@drawable/nharilhunh"/>
+
+                    <TextView
+                        android:text="Nharílhunh \n(nharílhuquí maráma) \n\n nharíjunh \n(nharíjuquí maráma)"
+                        android:id="@+id/txt_nharilhunh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/nharilhunh"
+                        android:layout_toEndOf="@id/nharilhunh"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_tucuru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/tucuru"
+                        android:src="@drawable/tucuru"/>
+
+                    <TextView
+                        android:text="Tucúru"
+                        android:id="@+id/txt_tucuru"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/tucuru"
+                        android:layout_toEndOf="@id/tucuru"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_tueju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/tueju"
+                        android:src="@drawable/tueju"/>
+
+                    <TextView
+                        android:text="Tuéju"
+                        android:id="@+id/txt_tueju"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/tueju"
+                        android:layout_toEndOf="@id/tueju"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_torouruma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/torouruma"
+                        android:src="@drawable/torouruma"/>
+
+                    <TextView
+                        android:text="Torourúma"
+                        android:id="@+id/txt_torouruma"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/torouruma"
+                        android:layout_toEndOf="@id/torouruma"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_culha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/culha"
+                        android:src="@drawable/culha"/>
+
+                    <TextView
+                        android:text="Culhá cáju \n(culhá cajú maráma) \n\n Cujá cáju \n(cujá cajú maráma)"
+                        android:id="@+id/txt_culha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/culha"
+                        android:layout_toEndOf="@id/culha"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_camon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/camon"
+                        android:src="@drawable/camon"/>
+
+                    <TextView
+                        android:text="Cámon\n(cámona maráma)"
+                        android:id="@+id/txt_camon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/camon"
+                        android:layout_toEndOf="@id/camon"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_parinhipis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/parinhipis"
+                        android:src="@drawable/parinhupis"/>
+
+                    <TextView
+                        android:text="Parínhipis \n(parínhipisí maráma)"
+                        android:id="@+id/txt_parinhipis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/parinhipis"
+                        android:layout_toEndOf="@id/parinhipis"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_caroqui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/caroqui"
+                        android:src="@drawable/caroqui"/>
+
+                    <TextView
+                        android:text="Caróqui cúru"
+                        android:id="@+id/txt_caroqui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/caroqui"
+                        android:layout_toEndOf="@id/caroqui"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_cuctinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/cuctinh"
+                        android:src="@drawable/cuctinh"/>
+
+                    <TextView
+                        android:text="Cúctinh\n(cúctiquí maráma)"
+                        android:id="@+id/txt_cuctinh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/cuctinh"
+                        android:layout_toEndOf="@id/cuctinh"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_catuju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/catuju"
+                        android:src="@drawable/catuju"/>
+
+                    <TextView
+                        android:text="Catúju"
+                        android:id="@+id/txt_catuju"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/catuju"
+                        android:layout_toEndOf="@id/catuju"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_caracu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/caracu"
+                        android:src="@drawable/caracu"/>
+
+                    <TextView
+                        android:text="Carácu"
+                        android:id="@+id/txt_caracu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/caracu"
+                        android:layout_toEndOf="@id/caracu"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="38dp"
