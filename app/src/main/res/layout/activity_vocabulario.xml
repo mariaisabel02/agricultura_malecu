@@ -66,7 +66,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/btn_ihulaunha"
+            android:id="@+id/btn_lhulaunha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardElevation="3dp"
@@ -90,7 +90,7 @@
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
-                        android:id="@+id/ihulaunha"
+                        android:id="@+id/lhulaunha"
                         android:src="@drawable/ihulaunha"/>
 
                     <TextView
@@ -101,8 +101,8 @@
                         android:textSize="20sp"
                         android:textColor="#410F0F"
                         android:textStyle="bold"
-                        android:layout_toRightOf="@id/ihulaunha"
-                        android:layout_toEndOf="@id/ihulaunha"
+                        android:layout_toRightOf="@id/lhulaunha"
+                        android:layout_toEndOf="@id/lhulaunha"
                         android:layout_marginLeft="10dp"
                         android:layout_centerInParent="true"
                         android:gravity="center"/>
@@ -113,7 +113,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/btn_ihutu"
+            android:id="@+id/btn_lhutu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardElevation="3dp"
@@ -137,7 +137,7 @@
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
-                        android:id="@+id/ihutu"
+                        android:id="@+id/lhutu"
                         android:src="@drawable/ihutu"/>
 
                     <TextView
@@ -148,8 +148,8 @@
                         android:textSize="20sp"
                         android:textColor="#410F0F"
                         android:textStyle="bold"
-                        android:layout_toRightOf="@id/ihutu"
-                        android:layout_toEndOf="@id/ihutu"
+                        android:layout_toRightOf="@id/lhutu"
+                        android:layout_toEndOf="@id/lhutu"
                         android:layout_marginLeft="10dp"
                         android:layout_centerInParent="true"
                         android:gravity="center"/>
@@ -254,7 +254,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/btn_ihuma"
+            android:id="@+id/btn_lhuma"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardElevation="3dp"
@@ -278,19 +278,19 @@
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
-                        android:id="@+id/ihuma"
+                        android:id="@+id/lhuma"
                         android:src="@drawable/ihuma"/>
 
                     <TextView
                         android:text="lhúma / juma"
-                        android:id="@+id/txt_ihuma"
+                        android:id="@+id/txt_lhuma"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:textColor="#410F0F"
                         android:textStyle="bold"
-                        android:layout_toRightOf="@id/ihuma"
-                        android:layout_toEndOf="@id/ihuma"
+                        android:layout_toRightOf="@id/lhuma"
+                        android:layout_toEndOf="@id/lhuma"
                         android:layout_marginLeft="10dp"
                         android:layout_centerInParent="true"
                         android:gravity="center"/>
@@ -348,7 +348,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/btn_ihunhoqui"
+            android:id="@+id/btn_lhunhoqui"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardElevation="3dp"
@@ -372,19 +372,19 @@
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
-                        android:id="@+id/ihunhoqui"
+                        android:id="@+id/lhunhoqui"
                         android:src="@drawable/ihunhoqui"/>
 
                     <TextView
                         android:text="lhunhóquí cúru \n Junhóquí cúru"
-                        android:id="@+id/txt_ihunhoqui"
+                        android:id="@+id/txt_lhunhoqui"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:textColor="#410F0F"
                         android:textStyle="bold"
-                        android:layout_toRightOf="@id/ihunhoqui"
-                        android:layout_toEndOf="@id/ihunhoqui"
+                        android:layout_toRightOf="@id/lhunhoqui"
+                        android:layout_toEndOf="@id/lhunhoqui"
                         android:layout_marginLeft="10dp"
                         android:layout_centerInParent="true"
                         android:gravity="center"/>
