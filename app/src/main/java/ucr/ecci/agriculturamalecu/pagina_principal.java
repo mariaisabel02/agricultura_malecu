@@ -9,6 +9,7 @@ import android.view.View;
 import android.content.Context;
 
 public class pagina_principal extends AppCompatActivity {
+    MediaPlayer raw_vocabulario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,9 @@ public class pagina_principal extends AppCompatActivity {
         CardView btn_vocabulario = findViewById(R.id.btn_vocabulario);
         CardView btn_agricultura = findViewById(R.id.btn_agricultura);
 
+        //inicializamos los audios del menu principal
+        raw_vocabulario = MediaPlayer.create(pagina_principal.this, R.raw.activity_vocabulario);
+
         btn_introduccion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -34,6 +38,7 @@ public class pagina_principal extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, vocabulario.class);
+                raw_vocabulario.start();
                 startActivity(intent);
             }
         });

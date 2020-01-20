@@ -15,8 +15,8 @@ public class Splash extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //sonido = MediaPlayer.create(this, R.raw.titulo_splash);
-        //sonido.start();
+        sonido = MediaPlayer.create(this, R.raw.titulo_splash);
+        sonido.start();
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -29,7 +29,7 @@ public class Splash extends AppCompatActivity {
             public void run() {
                 Intent actividad = new Intent(Splash.this, pagina_principal.class);
                 startActivity(actividad);
-                //sonido.release();
+                sonido.release();
                 finish();
             }
         }, TIEMPO);
