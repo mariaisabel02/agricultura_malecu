@@ -66,7 +66,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/btn_ihurri"
+            android:id="@+id/btn_lhurri"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardElevation="3dp"
@@ -90,19 +90,19 @@
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
-                        android:id="@+id/ihurri"
+                        android:id="@+id/lhurri"
                         android:src="@drawable/ihurri"/>
 
                     <TextView
                         android:text="lhúrri cúru / júrri cúru"
-                        android:id="@+id/txt_ihurri"
+                        android:id="@+id/txt_lhurri"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:textColor="#410F0F"
                         android:textStyle="bold"
-                        android:layout_toRightOf="@id/ihurri"
-                        android:layout_toEndOf="@id/ihurri"
+                        android:layout_toRightOf="@id/lhurri"
+                        android:layout_toEndOf="@id/lhurri"
                         android:layout_marginLeft="10dp"
                         android:layout_centerInParent="true"
                         android:gravity="center"/>
@@ -376,7 +376,7 @@
                         android:src="@drawable/cujo"/>
 
                     <TextView
-                        android:text="Alúti"
+                        android:text="Cújo"
                         android:id="@+id/txt_cujo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

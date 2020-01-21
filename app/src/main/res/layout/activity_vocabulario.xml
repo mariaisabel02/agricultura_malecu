@@ -442,7 +442,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/btn_ihuli"
+            android:id="@+id/btn_lhuli"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardElevation="3dp"
@@ -466,19 +466,19 @@
                     <ImageView
                         android:layout_width="75dp"
                         android:layout_height="75dp"
-                        android:id="@+id/ihuli"
+                        android:id="@+id/lhuli"
                         android:src="@drawable/ihuli"/>
 
                     <TextView
                         android:text="lhúli suírra aúnha \n júli suírra aúnha"
-                        android:id="@+id/txt_ihuli"
+                        android:id="@+id/txt_lhuli"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="20sp"
                         android:textColor="#410F0F"
                         android:textStyle="bold"
-                        android:layout_toRightOf="@id/ihuli"
-                        android:layout_toEndOf="@id/ihuli"
+                        android:layout_toRightOf="@id/lhuli"
+                        android:layout_toEndOf="@id/lhuli"
                         android:layout_marginLeft="10dp"
                         android:layout_centerInParent="true"
                         android:gravity="center"/>

@@ -20,32 +20,12 @@ public class vocabulario extends AppCompatActivity {
     MediaPlayer raw_afojor;
     MediaPlayer raw_lhunhoqui;
     MediaPlayer raw_cafata;
-    MediaPlayer raw_ihuli;
+    MediaPlayer raw_lhuli;
     MediaPlayer raw_errefa;
     MediaPlayer raw_pina;
     MediaPlayer raw_porilh;
     MediaPlayer raw_chiquitarequi;
-    MediaPlayer raw_paranh;
-    MediaPlayer raw_ihurri;
-    MediaPlayer raw_purunaf;
-    MediaPlayer raw_poli;
-    MediaPlayer raw_oterra;
-    MediaPlayer raw_tonh;
-    MediaPlayer raw_aluti;
-    MediaPlayer raw_cujo;
-    MediaPlayer raw_catonh;
-    MediaPlayer raw_nharilhunh;
-    MediaPlayer raw_tucuru;
-    MediaPlayer raw_tueju;
-    MediaPlayer raw_torouruma;
-    MediaPlayer raw_camon;
-    MediaPlayer raw_parínhipis;
-    MediaPlayer raw_caroqui;
-    MediaPlayer raw_culha;
-    MediaPlayer raw_cuctinh;
-    MediaPlayer raw_catuju;
-    MediaPlayer raw_caracu;
-
+    MediaPlayer raw_vocabulario2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,35 +45,28 @@ public class vocabulario extends AppCompatActivity {
         CardView btn_afojor = findViewById(R.id.btn_afjor);
         CardView btn_lhunhoqui = findViewById(R.id.btn_lhunhoqui);
         CardView btn_cafata = findViewById(R.id.btn_cafata);
-        CardView btn_ihuli = findViewById(R.id.btn_ihuli);
+        CardView btn_lhuli = findViewById(R.id.btn_lhuli);
         CardView btn_errefa = findViewById(R.id.btn_errefa);
         CardView btn_pina = findViewById(R.id.btn_pina);
         CardView btn_porilh = findViewById(R.id.btn_porilh);
         CardView btn_chiquitarequi = findViewById(R.id.btn_chiquitarequi);
-        CardView btn_paranh = findViewById(R.id.btn_paranh);
-        CardView btn_lhurri = findViewById(R.id.btn_ihurri);
-        CardView btn_purunaf = findViewById(R.id.btn_purunaf);
-        CardView btn_poli = findViewById(R.id.btn_poli);
-        CardView btn_oterra = findViewById(R.id.btn_oterra);
-        CardView btn_tonh = findViewById(R.id.btn_tonh);
-        CardView btn_aluti = findViewById(R.id.btn_aluti);
-        CardView btn_cujo = findViewById(R.id.btn_cujo);
-        CardView btn_catonh = findViewById(R.id.btn_catonh);
-        CardView btn_nharilhunh = findViewById(R.id.btn_nharilhunh);
-        CardView btn_tucuru = findViewById(R.id.btn_tucuru);
-        CardView btn_tueju = findViewById(R.id.btn_tueju);
-        CardView btn_torouruma = findViewById(R.id.btn_torouruma);
-        CardView btn_camon = findViewById(R.id.btn_camon);
-        CardView btn_parínhipis = findViewById(R.id.btn_parinhipis);
-        CardView btn_caroqui = findViewById(R.id.btn_caroqui);
-        CardView btn_culha = findViewById(R.id.btn_culha);
-        CardView btn_cuctinh = findViewById(R.id.btn_cuctinh);
-        CardView btn_catuju = findViewById(R.id.btn_catuju);
-        CardView btn_caracu = findViewById(R.id.btn_caracu);
-        //Ahora con herramientas.
 
         //inicializamos los audios del menu principal
         raw_ainh = MediaPlayer.create(vocabulario.this, R.raw.ainh);
+        raw_lhulaunha = MediaPlayer.create(vocabulario.this, R.raw.lhulaunha);
+        raw_lhutu = MediaPlayer.create(vocabulario.this, R.raw.lhutu);
+        raw_caju = MediaPlayer.create(vocabulario.this, R.raw.caju);
+        raw_iyanh = MediaPlayer.create(vocabulario.this, R.raw.iyanh);
+        raw_lhuma = MediaPlayer.create(vocabulario.this, R.raw.lhuma);
+        raw_afojor = MediaPlayer.create(vocabulario.this, R.raw.afojor);
+        raw_lhunhoqui = MediaPlayer.create(vocabulario.this, R.raw.lhunhoqui);
+        raw_cafata = MediaPlayer.create(vocabulario.this, R.raw.cafata);
+        raw_lhuli = MediaPlayer.create(vocabulario.this, R.raw.lhuli);
+        raw_errefa = MediaPlayer.create(vocabulario.this, R.raw.errefa);
+        raw_pina = MediaPlayer.create(vocabulario.this, R.raw.pina);
+        raw_porilh = MediaPlayer.create(vocabulario.this, R.raw.porilh);
+        raw_chiquitarequi = MediaPlayer.create(vocabulario.this, R.raw.chiquitarequi);
+        raw_vocabulario2 = MediaPlayer.create(vocabulario.this, R.raw.activity_vocabulario2);
 
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
         btn_ainh.setOnClickListener(new View.OnClickListener() {
@@ -166,11 +139,46 @@ public class vocabulario extends AppCompatActivity {
             }
         });
 
+        btn_lhuli.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                raw_lhuli.start();
+            }
+        });
+
+        btn_errefa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                raw_errefa.start();
+            }
+        });
+
+        btn_pina.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                raw_pina.start();
+            }
+        });
+
+        btn_porilh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                raw_porilh.start();
+            }
+        });
+
+        btn_chiquitarequi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                raw_chiquitarequi.start();
+            }
+        });
 
         boton_adelante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, vocabulario2.class);
+                raw_vocabulario2.start();
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
