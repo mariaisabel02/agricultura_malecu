@@ -11,28 +11,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class vocabulario2 extends AppCompatActivity {
-    MediaPlayer raw_paranh;
-    MediaPlayer raw_lhurri;
-    MediaPlayer raw_purunaf;
-    MediaPlayer raw_poli;
-    MediaPlayer raw_oterra;
-    MediaPlayer raw_tonh;
-    MediaPlayer raw_aluti;
-    MediaPlayer raw_cujo;
-    MediaPlayer raw_catonh;
-    MediaPlayer raw_nharilhunh;
-    MediaPlayer raw_tucuru;
-    MediaPlayer raw_tueju;
-    MediaPlayer raw_torouruma;
-    MediaPlayer raw_camon;
-    MediaPlayer raw_parinhipis;
-    MediaPlayer raw_caroqui;
-    MediaPlayer raw_culha;
-    MediaPlayer raw_cuctinh;
-    MediaPlayer raw_catuju;
-    MediaPlayer raw_caracu;
-    MediaPlayer raw_vocabulario;
-    MediaPlayer raw_vocabulario3;
+    MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,166 +44,144 @@ public class vocabulario2 extends AppCompatActivity {
         CardView btn_catuju = findViewById(R.id.btn_catuju);
         CardView btn_caracu = findViewById(R.id.btn_caracu);
 
-        //inicializamos los audios del menu principal
-        raw_paranh = MediaPlayer.create(vocabulario2.this, R.raw.paranh);
-        raw_lhurri = MediaPlayer.create(vocabulario2.this, R.raw.lhurri);
-        raw_purunaf = MediaPlayer.create(vocabulario2.this, R.raw.purunaf);
-        raw_poli = MediaPlayer.create(vocabulario2.this, R.raw.poli);
-        raw_oterra = MediaPlayer.create(vocabulario2.this, R.raw.oterra);
-        raw_tonh = MediaPlayer.create(vocabulario2.this, R.raw.tonh);
-        raw_aluti = MediaPlayer.create(vocabulario2.this, R.raw.aluti);
-        raw_cujo = MediaPlayer.create(vocabulario2.this, R.raw.cujo);
-        raw_catonh = MediaPlayer.create(vocabulario2.this, R.raw.catonh);
-        raw_nharilhunh = MediaPlayer.create(vocabulario2.this, R.raw.nharilhunh);
-        raw_camon = MediaPlayer.create(vocabulario2.this, R.raw.camon);
-        raw_parinhipis = MediaPlayer.create(vocabulario2.this, R.raw.parinhipis);
-        raw_caroqui = MediaPlayer.create(vocabulario2.this, R.raw.caroqui);
-        raw_culha = MediaPlayer.create(vocabulario2.this, R.raw.culha);
-        raw_cuctinh = MediaPlayer.create(vocabulario2.this, R.raw.cuctinh);
-        raw_catuju = MediaPlayer.create(vocabulario2.this, R.raw.catuju);
-        raw_caracu = MediaPlayer.create(vocabulario2.this, R.raw.caracu);
-
-        raw_vocabulario = MediaPlayer.create(vocabulario2.this, R.raw.activity_vocabulario);
-        raw_vocabulario3 = MediaPlayer.create(vocabulario2.this, R.raw.activity_vocabulario3);
-
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
         btn_paranh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_paranh.start();
+                empezarAudio(R.raw.paranh);
             }
         });
 
         btn_lhurri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_lhurri.start();
+                empezarAudio(R.raw.lhurri);
             }
         });
 
         btn_purunaf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_purunaf.start();
+                empezarAudio(R.raw.purunaf);
             }
         });
 
         btn_poli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_poli.start();
+                empezarAudio(R.raw.poli);
             }
         });
 
         btn_oterra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_oterra.start();
+                empezarAudio(R.raw.oterra);
             }
         });
 
         btn_tonh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_tonh.start();
+                empezarAudio(R.raw.tonh);
             }
         });
 
         btn_aluti.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_aluti.start();
+                empezarAudio(R.raw.aluti);
             }
         });
 
         btn_cujo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_cujo.start();
+                empezarAudio(R.raw.cujo);
             }
         });
 
         btn_catonh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_catonh.start();
+                empezarAudio(R.raw.catonh);
             }
         });
 
         btn_nharilhunh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_nharilhunh.start();
+                empezarAudio(R.raw.nharilhunh);
             }
         });
 
         btn_tucuru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_tucuru.start();
+                empezarAudio(R.raw.tucuru);
             }
         });
 
         btn_tueju.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_tueju.start();
+                empezarAudio(R.raw.tueju);
             }
         });
 
         btn_torouruma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_torouruma.start();
+                empezarAudio(R.raw.torouruma);
             }
         });
 
         btn_camon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_camon.start();
+                empezarAudio(R.raw.camon);
             }
         });
 
         btn_parinhipis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_parinhipis.start();
+                empezarAudio(R.raw.parinhipis);
             }
         });
 
         btn_caroqui.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_caroqui.start();
+                empezarAudio(R.raw.caroqui);
             }
         });
 
         btn_culha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_culha.start();
+                empezarAudio(R.raw.culha);
             }
         });
 
         btn_cuctinh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_cuctinh.start();
+                empezarAudio(R.raw.cuctinh);
             }
         });
 
         btn_catuju.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_catuju.start();
+                empezarAudio(R.raw.catuju);
             }
         });
 
         btn_caracu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_caracu.start();
+                empezarAudio(R.raw.caracu);
             }
         });
 
@@ -232,7 +189,7 @@ public class vocabulario2 extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, vocabulario3.class);
-                raw_vocabulario3.start();
+                empezarAudio(R.raw.activity_vocabulario3);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
@@ -251,11 +208,23 @@ public class vocabulario2 extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, vocabulario.class);
-                raw_vocabulario.start();
+                empezarAudio(R.raw.activity_vocabulario);
                 startActivity(intent);
                 overridePendingTransition(R.anim.izq_der, R.anim.der_izq);;
             }
         });
     }
 
+    // Frena cualquier mp sonando y empieza el audio solicitado
+    public void empezarAudio(int audio)
+    {
+        if(mp != null && mp.isPlaying())
+        {
+            mp.stop();
+            mp.release();
+            mp = null;
+        }
+        mp = MediaPlayer.create(vocabulario2.this, audio);
+        mp.start();
+    }
 }

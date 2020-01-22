@@ -47,7 +47,7 @@
                         android:src="@drawable/paranh"/>
 
                     <TextView
-                        android:text="Páranh \n(paráqui maráma)"
+                        android:text="Páranh \n(Paráqui maráma)"
                         android:id="@+id/txt_ainh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                         android:src="@drawable/ihurri"/>
 
                     <TextView
-                        android:text="lhúrri cúru / júrri cúru"
+                        android:text="Lhúrri cúru / Júrri cúru"
                         android:id="@+id/txt_lhurri"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                         android:src="@drawable/purunaf"/>
 
                     <TextView
-                        android:text="purúnaf/purúnafanh \n(purúnafáqui maráma)"
+                        android:text="Purúnaf / Purúnafanh\n(Purúnafáqui maráma)"
                         android:id="@+id/txt_purunaf"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -282,7 +282,7 @@
                         android:src="@drawable/tonh"/>
 
                     <TextView
-                        android:text="Tónh \n(tóqui maráma)"
+                        android:text="Tónh \n(Tóqui maráma)"
                         android:id="@+id/txt_tonh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -423,7 +423,7 @@
                         android:src="@drawable/catonh"/>
 
                     <TextView
-                        android:text="Cátonh \n(catóqui maráma)"
+                        android:text="Cátonh\n(Catóqui maráma)"
                         android:id="@+id/txt_catonh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -470,7 +470,7 @@
                         android:src="@drawable/nharilhunh"/>
 
                     <TextView
-                        android:text="Nharílhunh \n(nharílhuquí maráma) \n\n nharíjunh \n(nharíjuquí maráma)"
+                        android:text="Nharílhunh \n(Nharílhuquí maráma) \n\n Nharíjunh \n(Nharíjuquí maráma)"
                         android:id="@+id/txt_nharilhunh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -658,7 +658,7 @@
                         android:src="@drawable/culha"/>
 
                     <TextView
-                        android:text="Culhá cáju \n(culhá cajú maráma) \n\n Cujá cáju \n(cujá cajú maráma)"
+                        android:text="Culhá cáju \n(Culhá cajú maráma) \n\n Cujá cáju \n(Cujá cajú maráma)"
                         android:id="@+id/txt_culha"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -705,7 +705,7 @@
                         android:src="@drawable/camon"/>
 
                     <TextView
-                        android:text="Cámon\n(cámona maráma)"
+                        android:text="Cámon\n (Cámona maráma)"
                         android:id="@+id/txt_camon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -752,7 +752,7 @@
                         android:src="@drawable/parinhupis"/>
 
                     <TextView
-                        android:text="Parínhipis \n(parínhipisí maráma)"
+                        android:text="Parínhipis \n(Parínhipisí maráma)"
                         android:id="@+id/txt_parinhipis"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -846,7 +846,7 @@
                         android:src="@drawable/cuctinh"/>
 
                     <TextView
-                        android:text="Cúctinh\n(cúctiquí maráma)"
+                        android:text="Cúctinh\n(Cúctiquí maráma)"
                         android:id="@+id/txt_cuctinh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

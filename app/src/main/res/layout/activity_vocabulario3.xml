@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/titulo_vocabulario2"/>
+            android:src="@drawable/titulo_vocabulario3"/>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_cora"
@@ -47,7 +47,7 @@
                         android:src="@drawable/cora1"/>
 
                     <TextView
-                        android:text="córa lhacá óra maoquéca/ \n córa jacá óra maoquéca"
+                        android:text="Córa lhacá óra maoquéca /\nCóra jacá óra maoquéca"
                         android:id="@+id/txt_cora"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                         android:src="@drawable/cora2"/>
 
                     <TextView
-                        android:text="córa lhacá maoquéca/ \n córa jacá maoquéca"
+                        android:text="Córa lhacá maoquéca /\nCóra jacá maoquéca"
                         android:id="@+id/txt_cora2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                     android:src="@drawable/pupa"/>
 
                 <TextView
-                    android:text="púpa ó mapurúlha maquerráca/ \n púpa ó mapurúja maquerráca"
+                    android:text="Púpa ó mapurúlha maquerráca /\nPúpa ó mapurúja maquerráca"
                     android:id="@+id/txt_pupa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -188,7 +188,7 @@
                         android:src="@drawable/yuqui"/>
 
                     <TextView
-                        android:text="yúqui (yuquí maráma)"
+                        android:text="Yúqui (Yuquí maráma)"
                         android:id="@+id/txt_yuqui"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -232,10 +232,10 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:id="@+id/quita"
-                        android:src="@drawable/yuqui"/>
+                        android:src="@drawable/quita"/>
 
                     <TextView
-                        android:text="quíta (quitá maráma) / \n yúqui (yuquí maráma)"
+                        android:text="Quíta (Quitá maráma) /\nYúqui (Yuquí maráma)"
                         android:id="@+id/txt_quita"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -282,7 +282,7 @@
                         android:src="@drawable/aje"/>
 
                     <TextView
-                        android:text="áje (ajé maráma)"
+                        android:text="Áje (Ajé maráma)"
                         android:id="@+id/txt_aje"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -329,7 +329,7 @@
                         android:src="@drawable/saranh"/>
 
                     <TextView
-                        android:text="córa sáranh (córa saráqui maráma)"
+                        android:text="Córa sáranh\n(Córa saráqui maráma)"
                         android:id="@+id/txt_saranh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -338,6 +338,242 @@
                         android:textStyle="bold"
                         android:layout_toRightOf="@id/saranh"
                         android:layout_toEndOf="@id/saranh"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_arafufu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/arafufu"
+                        android:src="@drawable/arafufu"/>
+
+                    <TextView
+                        android:text="Arafúfu (Arafufú maráma)"
+                        android:id="@+id/txt_arafufu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/arafufu"
+                        android:layout_toEndOf="@id/arafufu"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        tools:ignore="DuplicateIds" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_ajanhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/ajanhe"
+                        android:src="@drawable/ajanhe"/>
+
+                    <TextView
+                        android:text="Ní ajánhe córa lhacá lacá macorrócalhá maurájecá tiní mayaquí icúru anh"
+                        android:id="@+id/txt_ajanhe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/ajanhe"
+                        android:layout_toEndOf="@id/ajanhe"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_jerro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/jerro"
+                        android:src="@drawable/jerro"/>
+
+                    <TextView
+                        android:text="Lhérro (Lherró maráma) / Jérro (Jerró maráma)"
+                        android:id="@+id/txt_jerro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/jerro"
+                        android:layout_toEndOf="@id/jerro"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+            android:id="@+id/btn_junhoqui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/junhoqui"
+                        android:src="@drawable/junhoqui"/>
+
+                    <TextView
+                        android:text="Junhóqui cúru machacá ajánhe"
+                        android:id="@+id/txt_junhoqui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/junhoqui"
+                        android:layout_toEndOf="@id/junhoqui"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_mafochecheca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/mafochecheca"
+                        android:src="@drawable/mafochechacheca"/>
+
+                    <TextView
+                        android:text="Córa purú majuéca ní ajá afójorá mafóchechéca ája"
+                        android:id="@+id/txt_mafochecheca"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/mafochecheca"
+                        android:layout_toEndOf="@id/mafochecheca"
                         android:layout_marginLeft="10dp"
                         android:layout_centerInParent="true"
                         android:gravity="center"/>

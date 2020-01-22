@@ -12,7 +12,6 @@ import android.widget.ImageButton;
 
 public class vocabulario3 extends AppCompatActivity {
     MediaPlayer mp;
-    int sonido = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,55 +28,95 @@ public class vocabulario3 extends AppCompatActivity {
         CardView btn_aje = findViewById(R.id.btn_aje);
         CardView btn_yuqui = findViewById(R.id.btn_yuqui);
         CardView btn_quita = findViewById(R.id.btn_quita);
+        CardView btn_saranh = findViewById(R.id.btn_saranh);
+        CardView btn_arafufu = findViewById(R.id.btn_arafufu);
+        CardView btn_ajanhe = findViewById(R.id.btn_ajanhe);
+        CardView btn_jerro = findViewById(R.id.btn_jerro);
+        CardView btn_junhoqui = findViewById(R.id.btn_junhoqui);
+        CardView btn_mafochecheca = findViewById(R.id.btn_mafochecheca);
 
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
         btn_cora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                frenarAudio();
-                mp = MediaPlayer.create(vocabulario3.this, R.raw.lhaca);
-                mp.start();
-                sonido = 1;
+                empezarAudio(R.raw.lhaca);
             }
         });
 
         btn_cora2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                frenarAudio();
-                mp = MediaPlayer.create(vocabulario3.this, R.raw.lhaca2);
-                mp.start();
-                sonido = 1;
+                empezarAudio(R.raw.lhaca2);
             }
         });
 
         btn_pupa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                frenarAudio();
-                mp = MediaPlayer.create(vocabulario3.this, R.raw.pupa);
-                mp.start();
-                sonido = 1;
+                empezarAudio(R.raw.pupa);
             }
         });
 
         btn_aje.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                frenarAudio();
-                MediaPlayer.create(vocabulario3.this, R.raw.aje);
-                mp.start();
-                sonido = 1;
+                empezarAudio(R.raw.aje);
+            }
+        });
+
+        btn_quita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                empezarAudio(R.raw.quita);
             }
         });
 
         btn_yuqui.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                frenarAudio();
-                mp = MediaPlayer.create(vocabulario3.this, R.raw.yuqui);
-                mp.start();
-                sonido = 1;
+                empezarAudio(R.raw.yuqui);
+            }
+        });
+
+        btn_saranh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                empezarAudio(R.raw.saranh);
+            }
+        });
+
+        btn_arafufu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                empezarAudio(R.raw.arafufu);
+            }
+        });
+
+        btn_ajanhe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                empezarAudio(R.raw.ajanhe);
+            }
+        });
+
+        btn_jerro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                empezarAudio(R.raw.lherro);
+            }
+        });
+
+        btn_junhoqui.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                empezarAudio(R.raw.junhoqui);
+            }
+        });
+
+        btn_mafochecheca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                empezarAudio(R.raw.puru);
             }
         });
 
@@ -94,23 +133,24 @@ public class vocabulario3 extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, vocabulario2.class);
-                frenarAudio();
-                mp = MediaPlayer.create(vocabulario3.this, R.raw.activity_vocabulario2);
-                mp.start();
-                sonido = 1;
+                empezarAudio(R.raw.activity_vocabulario2);
                 startActivity(intent);
                 overridePendingTransition(R.anim.izq_der, R.anim.der_izq);
             }
         });
     }
 
-
-    private void frenarAudio() {
-        if (sonido == 1) {
+    // Frena cualquier mp sonando y empieza el audio solicitado
+    public void empezarAudio(int audio)
+    {
+        if(mp != null && mp.isPlaying())
+        {
             mp.stop();
             mp.release();
             mp = null;
-            sonido = 0;
         }
+        mp = MediaPlayer.create(vocabulario3.this, audio);
+        mp.start();
     }
+
 }

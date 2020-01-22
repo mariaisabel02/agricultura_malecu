@@ -47,7 +47,7 @@
                         android:src="@drawable/aninh"/>
 
                     <TextView
-                        android:text="Aính (aíquí maráma)"
+                        android:text="Aính (Aíquí maráma)"
                         android:id="@+id/txt_ainh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                         android:src="@drawable/ihulaunha"/>
 
                     <TextView
-                        android:text="lhuláúnha / juláúnha"
+                        android:text="Lhuláúnha / Juláúnha"
                         android:id="@+id/txt_ihulaunha"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                         android:src="@drawable/ihutu"/>
 
                     <TextView
-                        android:text="lhútu / jútu"
+                        android:text="Lhútu / Jútu"
                         android:id="@+id/txt_ihutu"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -188,7 +188,7 @@
                         android:src="@drawable/caju"/>
 
                     <TextView
-                        android:text="Cáju (cajú maráma)"
+                        android:text="Cáju (Cajú maráma)"
                         android:id="@+id/txt_caju"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -235,7 +235,7 @@
                         android:src="@drawable/iyanh"/>
 
                     <TextView
-                        android:text="Íyanh / yáqui \n(yaquí maráma)"
+                        android:text="Íyanh / Yáqui \n(Yaquí maráma)"
                         android:id="@+id/txt_iyanh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -282,7 +282,7 @@
                         android:src="@drawable/ihuma"/>
 
                     <TextView
-                        android:text="lhúma / juma"
+                        android:text="lhúma / Juma"
                         android:id="@+id/txt_lhuma"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -329,7 +329,7 @@
                         android:src="@drawable/afojor"/>
 
                     <TextView
-                        android:text="Afójor (afojóra maráma)"
+                        android:text="Afójor (Afojóra maráma)"
                         android:id="@+id/txt_afjor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -376,7 +376,7 @@
                         android:src="@drawable/ihunhoqui"/>
 
                     <TextView
-                        android:text="lhunhóquí cúru \n Junhóquí cúru"
+                        android:text="Lhunhóquí cúru\nJunhóquí cúru"
                         android:id="@+id/txt_lhunhoqui"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -470,7 +470,7 @@
                         android:src="@drawable/ihuli"/>
 
                     <TextView
-                        android:text="lhúli suírra aúnha \n júli suírra aúnha"
+                        android:text="Lhúli suírra aúnha\nJúli suírra aúnha"
                         android:id="@+id/txt_lhuli"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -611,7 +611,7 @@
                         android:src="@drawable/porilh"/>
 
                     <TextView
-                        android:text="pórilh (pórilhá maráma) \n pórij (pórijá maráma)"
+                        android:text="Pórilh (Pórilhá maráma)\nPórij (Pórijá maráma)"
                         android:id="@+id/txt_porilh"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

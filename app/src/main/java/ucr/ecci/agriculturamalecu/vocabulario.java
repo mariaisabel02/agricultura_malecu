@@ -11,21 +11,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class vocabulario extends AppCompatActivity {
-    MediaPlayer raw_ainh;
-    MediaPlayer raw_lhulaunha;
-    MediaPlayer raw_lhutu;
-    MediaPlayer raw_caju;
-    MediaPlayer raw_iyanh;
-    MediaPlayer raw_lhuma;
-    MediaPlayer raw_afojor;
-    MediaPlayer raw_lhunhoqui;
-    MediaPlayer raw_cafata;
-    MediaPlayer raw_lhuli;
-    MediaPlayer raw_errefa;
-    MediaPlayer raw_pina;
-    MediaPlayer raw_porilh;
-    MediaPlayer raw_chiquitarequi;
-    MediaPlayer raw_vocabulario2;
+    MediaPlayer mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,126 +37,109 @@ public class vocabulario extends AppCompatActivity {
         CardView btn_porilh = findViewById(R.id.btn_porilh);
         CardView btn_chiquitarequi = findViewById(R.id.btn_chiquitarequi);
 
-        //inicializamos los audios del menu principal
-        raw_ainh = MediaPlayer.create(vocabulario.this, R.raw.ainh);
-        raw_lhulaunha = MediaPlayer.create(vocabulario.this, R.raw.lhulaunha);
-        raw_lhutu = MediaPlayer.create(vocabulario.this, R.raw.lhutu);
-        raw_caju = MediaPlayer.create(vocabulario.this, R.raw.caju);
-        raw_iyanh = MediaPlayer.create(vocabulario.this, R.raw.iyanh);
-        raw_lhuma = MediaPlayer.create(vocabulario.this, R.raw.lhuma);
-        raw_afojor = MediaPlayer.create(vocabulario.this, R.raw.afojor);
-        raw_lhunhoqui = MediaPlayer.create(vocabulario.this, R.raw.lhunhoqui);
-        raw_cafata = MediaPlayer.create(vocabulario.this, R.raw.cafata);
-        raw_lhuli = MediaPlayer.create(vocabulario.this, R.raw.lhuli);
-        raw_errefa = MediaPlayer.create(vocabulario.this, R.raw.errefa);
-        raw_pina = MediaPlayer.create(vocabulario.this, R.raw.pina);
-        raw_porilh = MediaPlayer.create(vocabulario.this, R.raw.porilh);
-        raw_chiquitarequi = MediaPlayer.create(vocabulario.this, R.raw.chiquitarequi);
-        raw_vocabulario2 = MediaPlayer.create(vocabulario.this, R.raw.activity_vocabulario2);
-
         //para cada botón (cardview) indicamos hacia cuál actividad va al hacer click
         btn_ainh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_ainh.start();
+                empezarAudio(R.raw.ainh);
             }
         });
 
         btn_lhulaunha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_lhulaunha.start();
+                empezarAudio(R.raw.lhulaunha);
             }
         });
 
         btn_lhutu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_lhutu.start();
+                empezarAudio(R.raw.lhutu);
             }
         });
 
         btn_caju.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_caju.start();
+                empezarAudio(R.raw.caju);
             }
         });
 
         btn_iyanh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_iyanh.start();
+                empezarAudio(R.raw.iyanh);
             }
         });
 
         btn_lhuma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_lhuma.start();
+                empezarAudio(R.raw.lhuma);
             }
         });
 
         btn_afojor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_afojor.start();
+                empezarAudio(R.raw.afojor);
             }
         });
 
         btn_lhulaunha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_lhulaunha.start();
+                empezarAudio(R.raw.lhulaunha);
             }
         });
 
         btn_lhunhoqui.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_lhunhoqui.start();
+                empezarAudio(R.raw.lhunhoqui);
             }
         });
 
         btn_cafata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_cafata.start();
+                empezarAudio(R.raw.cafata);
             }
         });
 
         btn_lhuli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_lhuli.start();
+                empezarAudio(R.raw.lhuli);
             }
         });
 
         btn_errefa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_errefa.start();
+                empezarAudio(R.raw.errefa);
             }
         });
 
         btn_pina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_pina.start();
+                empezarAudio(R.raw.pina);
             }
         });
 
         btn_porilh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_porilh.start();
+                empezarAudio(R.raw.porilh);
             }
         });
 
         btn_chiquitarequi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                raw_chiquitarequi.start();
+                empezarAudio(R.raw.chiquitarequi);
             }
         });
 
@@ -178,7 +147,7 @@ public class vocabulario extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, vocabulario2.class);
-                raw_vocabulario2.start();
+                empezarAudio(R.raw.activity_vocabulario2);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
@@ -192,5 +161,18 @@ public class vocabulario extends AppCompatActivity {
                 overridePendingTransition(R.anim.izq_der, R.anim.der_izq);
             }
         });
+    }
+
+    // Frena cualquier mp sonando y empieza el audio solicitado
+    public void empezarAudio(int audio)
+    {
+        if(mp != null && mp.isPlaying())
+        {
+            mp.stop();
+            mp.release();
+            mp = null;
+        }
+        mp = MediaPlayer.create(vocabulario.this, audio);
+        mp.start();
     }
 }
