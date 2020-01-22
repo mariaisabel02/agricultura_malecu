@@ -159,54 +159,6 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/btn_aje"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardElevation="3dp"
-            app:cardCornerRadius="3dp"
-            app:cardUseCompatPadding="true"
-            android:layout_margin="2dp"
-            app:cardBackgroundColor="@color/cardview_light_background">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="2dp"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp">
-
-                    <ImageView
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:id="@+id/aje"
-                        android:src="@drawable/aje"/>
-
-                    <TextView
-                        android:text="áje (ajé maráma)"
-                        android:id="@+id/txt_aje"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="20sp"
-                        android:textColor="#410F0F"
-                        android:textStyle="bold"
-                        android:layout_toRightOf="@id/aje"
-                        android:layout_toEndOf="@id/aje"
-                        android:layout_marginLeft="10dp"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_yuqui"
             android:layout_width="match_parent"
@@ -302,6 +254,53 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/btn_aje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="3dp"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="2dp"
+            app:cardBackgroundColor="@color/cardview_light_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/aje"
+                        android:src="@drawable/aje"/>
+
+                    <TextView
+                        android:text="áje (ajé maráma)"
+                        android:id="@+id/txt_aje"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#410F0F"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@id/aje"
+                        android:layout_toEndOf="@id/aje"
+                        android:layout_marginLeft="10dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
             android:id="@+id/btn_saranh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -348,100 +347,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/btn_arafufu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardElevation="3dp"
-            app:cardCornerRadius="3dp"
-            app:cardUseCompatPadding="true"
-            android:layout_margin="2dp"
-            app:cardBackgroundColor="@color/cardview_light_background">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="2dp"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp">
-
-                    <ImageView
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:id="@+id/arafufu"
-                        android:src="@drawable/saranh"/> //Faltaaaaa imagen
-
-                    <TextView
-                        android:text="arafúfu (arafufú maráma)"
-                        android:id="@+id/txt_arafufu"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="20sp"
-                        android:textColor="#410F0F"
-                        android:textStyle="bold"
-                        android:layout_toRightOf="@id/arafufu"
-                        android:layout_toEndOf="@id/arafufu"
-                        android:layout_marginLeft="10dp"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/btn_arafufu"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardElevation="3dp"
-            app:cardCornerRadius="3dp"
-            app:cardUseCompatPadding="true"
-            android:layout_margin="2dp"
-            app:cardBackgroundColor="@color/cardview_light_background">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="2dp"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="2dp">
-
-                    <ImageView
-                        android:layout_width="75dp"
-                        android:layout_height="75dp"
-                        android:id="@+id/arafufu"
-                        android:src="@drawable/saranh"/> //Faltaaaaa imagen
-
-                    <TextView
-                        android:text="arafúfu (arafufú maráma)"
-                        android:id="@+id/txt_arafufu"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="20sp"
-                        android:textColor="#410F0F"
-                        android:textStyle="bold"
-                        android:layout_toRightOf="@id/arafufu"
-                        android:layout_toEndOf="@id/arafufu"
-                        android:layout_marginLeft="10dp"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"/>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="38dp"
@@ -471,7 +376,7 @@
                 android:layout_height="70dp"
                 android:layout_alignParentRight="true"
                 android:background="@color/cardview_light_background"
-                app:srcCompat="@drawable/adelante" />
+                />
         </RelativeLayout>
 
     </LinearLayout>

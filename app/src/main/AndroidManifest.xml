@@ -10,12 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".vocabulario3"></activity>
-        <activity android:name=".vocabulario2" />
-        <activity android:name=".vocabulario" />
-        <activity android:name=".introduccion" />
-        <activity android:name=".pagina_principal" />
-        <activity android:name=".Splash">
+        <activity android:name=".vocabulario3" android:screenOrientation="portrait"></activity>
+        <activity android:name=".vocabulario2" android:screenOrientation="portrait"/>
+        <activity android:name=".vocabulario" android:screenOrientation="portrait"/>
+        <activity android:name=".introduccion" android:screenOrientation="portrait"/>
+        <activity android:name=".pagina_principal" android:screenOrientation="portrait"/>
+        <activity android:name=".Splash" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
