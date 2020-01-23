@@ -42,5 +42,13 @@ public class pagina_principal extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btn_agricultura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, agricultura_tradicional.class);
+                startActivity(intent);
+            }
+        });
     }
 }
