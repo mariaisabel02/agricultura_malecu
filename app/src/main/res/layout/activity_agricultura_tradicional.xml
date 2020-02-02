@@ -61,8 +61,8 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
                         android:src="@drawable/ainh_agri"/>
 
                 </LinearLayout>
@@ -87,23 +87,15 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/aninh"/>
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/iyanh_agri"/>
 
-                    <TextView
-                        android:text="Íyanh"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="#00e6e6"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="12dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/btn_lhúli1"
+                android:id="@+id/btn_lhuli1"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 app:cardElevation="6dp"
@@ -121,18 +113,10 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/aninh"/>
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/lhuli_agri"/>
 
-                    <TextView
-                        android:text="Lhúli suírra ófa lhúli chía"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="#00e6e6"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="12dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -155,18 +139,10 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/aninh"/>
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/lhuma_agri"/>
 
-                    <TextView
-                        android:text="Lhúma/Júma"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="#00e6e6"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="12dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -189,18 +165,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/aninh"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/lhutu_agri"/>
 
-                <TextView
-                    android:text="Lhútu/Jútu"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="#00e6e6"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="12dp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -223,18 +191,10 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/aninh"/>
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/caju_agri"/>
 
-                    <TextView
-                        android:text="Lhútu/Jútu"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="#00e6e6"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="12dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -257,18 +217,10 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/aninh"/>
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/pina_agri"/>
 
-                    <TextView
-                        android:text="Pína"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="#00e6e6"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="12dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -291,18 +243,10 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/aninh"/>
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/afojor_agri"/>
 
-                <TextView
-                    android:text="Pína"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="#00e6e6"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="12dp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -325,18 +269,10 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/aninh"/>
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/chiquitarequi_agri"/>
 
-                    <TextView
-                        android:text="Pína"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="#00e6e6"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="12dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -359,18 +295,10 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/aninh"/>
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/junhoqui_agri"/>
 
-                    <TextView
-                        android:text="Pína"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="#00e6e6"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="12dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 

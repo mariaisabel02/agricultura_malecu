@@ -10,7 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".agricultura_tradicional"></activity>
+        <activity android:name=".caju"></activity>
+        <activity android:name=".lhutu" />
+        <activity android:name=".lhuma" />
+        <activity android:name=".lhuli" />
+        <activity android:name=".iyanh" />
+        <activity android:name=".ainh" />
+        <activity android:name=".agricultura_tradicional" />
         <activity
             android:name=".vocabulario3"
             android:screenOrientation="portrait" />

@@ -210,7 +210,7 @@ public class vocabulario2 extends AppCompatActivity {
                 Intent intent = new Intent(context, vocabulario.class);
                 empezarAudio(R.raw.activity_vocabulario);
                 startActivity(intent);
-                overridePendingTransition(R.anim.izq_der, R.anim.der_izq);;
+                overridePendingTransition(R.anim.izq_der, R.anim.der_izq);
             }
         });
     }
