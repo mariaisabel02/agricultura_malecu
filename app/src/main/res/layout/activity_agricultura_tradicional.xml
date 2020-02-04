@@ -13,7 +13,7 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_intro"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             app:cardElevation="6dp"
@@ -31,6 +31,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
                     android:src="@drawable/titulo"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -306,8 +307,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_acerca"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             app:cardElevation="6dp"
             app:cardCornerRadius="12dp"
