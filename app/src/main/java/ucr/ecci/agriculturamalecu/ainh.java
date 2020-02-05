@@ -14,12 +14,10 @@ public class ainh extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ainh);
-
-        ImageButton boton_atras = (ImageButton)findViewById(R.id.btn_atras);
+        ImageButton boton_principal = (ImageButton)findViewById(R.id.btn_principal);
         final Context context = this;
 
-
-        boton_atras.setOnClickListener(new View.OnClickListener() {
+        boton_principal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, agricultura_tradicional.class);
