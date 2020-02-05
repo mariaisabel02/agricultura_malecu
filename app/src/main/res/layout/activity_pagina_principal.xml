@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,24 +13,14 @@
         android:orientation="vertical">
 
         <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:background="@color/colorPrimary">
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/portada">
+        </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tiá orróqui maráma matíca ó macáca"
-                android:textColor="#FFFF"
-                android:textStyle="bold"
-                android:textSize="24sp"
-                android:layout_gravity="center"
-                android:gravity="center_horizontal">
 
-            </TextView>
-    </LinearLayout>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_introduccion"
@@ -38,7 +29,7 @@
             app:cardElevation="3dp"
             app:cardCornerRadius="3dp"
             app:cardUseCompatPadding="true"
-            android:layout_margin="5dp"
+            android:layout_margin="9dp"
             app:cardBackgroundColor="@color/cardview_light_background">
 
             <LinearLayout
@@ -99,7 +90,7 @@
             app:cardElevation="3dp"
             app:cardCornerRadius="3dp"
             app:cardUseCompatPadding="true"
-            android:layout_margin="5dp"
+            android:layout_margin="9dp"
             app:cardBackgroundColor="@color/cardview_light_background">
 
             <LinearLayout
@@ -160,7 +151,7 @@
             app:cardElevation="3dp"
             app:cardCornerRadius="3dp"
             app:cardUseCompatPadding="true"
-            android:layout_margin="5dp"
+            android:layout_margin="9dp"
             app:cardBackgroundColor="@color/cardview_light_background">
 
             <LinearLayout
