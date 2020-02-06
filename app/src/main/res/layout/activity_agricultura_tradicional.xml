@@ -303,7 +303,13 @@
 
         </GridLayout>
 
+            <ImageButton
+                android:id="@+id/btn_principal"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/fondo"
+                app:srcCompat="@drawable/home" />
 
     </LinearLayout>
-
 </ScrollView>

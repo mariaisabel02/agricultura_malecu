@@ -31,6 +31,7 @@ public class pagina_principal extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(context, introduccion.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
 
@@ -40,6 +41,7 @@ public class pagina_principal extends AppCompatActivity {
                 Intent intent = new Intent(context, vocabulario.class);
                 raw_vocabulario.start();
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
 
@@ -48,6 +50,7 @@ public class pagina_principal extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(context, agricultura_tradicional.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
     }
