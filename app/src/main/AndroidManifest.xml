@@ -10,20 +10,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".caju"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".lhutu"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".lhuma"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".lhuli"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".iyanh"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ainh"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".agricultura_tradicional"
-            android:screenOrientation="portrait"/>
+        <activity android:name=".pina"></activity>
+        <activity
+            android:name=".caju"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".lhutu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".lhuma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".lhuli"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".iyanh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ainh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".agricultura_tradicional"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".vocabulario3"
             android:screenOrientation="portrait" />

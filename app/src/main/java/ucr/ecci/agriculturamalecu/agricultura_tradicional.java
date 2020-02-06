@@ -30,6 +30,10 @@ public class agricultura_tradicional extends AppCompatActivity {
         CardView btn_lhuma = findViewById(R.id.btn_lhuma1);
         CardView btn_lhutu = findViewById(R.id.btn_lhutu1);
         CardView btn_caju = findViewById(R.id.btn_caju1);
+        CardView btn_pina = findViewById(R.id.btn_pina1);
+        CardView btn_afojor = findViewById(R.id.btn_afojor1);
+        CardView btn_chiquitarequi = findViewById(R.id.btn_chiquitarequi1);
+        CardView btn_junhoqui = findViewById(R.id.btn_junhoqui1);
 
         btn_principal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,6 +50,7 @@ public class agricultura_tradicional extends AppCompatActivity {
                 Intent intent = new Intent(context, ainh.class);
                 empezarAudio(R.raw.ainh);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
 
@@ -55,6 +60,7 @@ public class agricultura_tradicional extends AppCompatActivity {
                 Intent intent = new Intent(context, iyanh.class);
                 empezarAudio(R.raw.iyanh);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
 
@@ -74,6 +80,7 @@ public class agricultura_tradicional extends AppCompatActivity {
                 Intent intent = new Intent(context, lhuma.class);
                 empezarAudio(R.raw.lhuma);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
 
@@ -83,6 +90,7 @@ public class agricultura_tradicional extends AppCompatActivity {
                 Intent intent = new Intent(context, lhutu.class);
                 empezarAudio(R.raw.lhutu);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
 
@@ -92,6 +100,17 @@ public class agricultura_tradicional extends AppCompatActivity {
                 Intent intent = new Intent(context, caju.class);
                 empezarAudio(R.raw.caju);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
+            }
+        });
+
+        btn_pina.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, pina.class);
+                empezarAudio(R.raw.pina);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
     }
