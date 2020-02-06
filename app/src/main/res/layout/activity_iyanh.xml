@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:background="@drawable/fondo"
+    android:padding="15dp">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,23 +21,28 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"
                 android:src="@drawable/iyanh_act1" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/fondo"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_principal"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/fondo"
+                    app:srcCompat="@drawable/home" />
+            </RelativeLayout>
+
         </LinearLayout>
     </ScrollView>
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="38dp"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:id="@+id/btn_atras"
-            android:layout_width="100dp"
-            android:layout_height="70dp"
-            android:layout_centerHorizontal="true"
-            app:srcCompat="@drawable/atras" />
-    </RelativeLayout>
 
 
 </RelativeLayout>
