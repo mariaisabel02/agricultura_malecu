@@ -13,11 +13,15 @@
         android:orientation="vertical">
 
 
-        <ImageView
+        <TextView
+            android:text="Ní arára óyu nínhca ipcorróye"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
             android:layout_gravity="center"
-            android:src="@drawable/titulo_vocabulario3"/>
+            android:gravity="center"/>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_cora"
@@ -48,7 +52,7 @@
                         android:src="@drawable/cora1"/>
 
                     <TextView
-                        android:text="Córa lhacá óra maoquéca /\nCóra jacá óra maoquéca"
+                        android:text="Córa lhacá óra maoquéca \n\nCóra jacá óra maoquéca"
                         android:id="@+id/txt_cora"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -95,7 +99,7 @@
                         android:src="@drawable/cora2"/>
 
                     <TextView
-                        android:text="Córa lhacá maoquéca /\nCóra jacá maoquéca"
+                        android:text="Córa lhacá maoquéca\nCóra jacá maoquéca"
                         android:id="@+id/txt_cora2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -142,7 +146,7 @@
                     android:src="@drawable/pupa"/>
 
                 <TextView
-                    android:text="Púpa ó mapurúlha maquerráca /\nPúpa ó mapurúja maquerráca"
+                    android:text="Púpa ó mapurúlha maquerráca \n\nPúpa ó mapurúja maquerráca"
                     android:id="@+id/txt_pupa"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -236,7 +240,7 @@
                         android:src="@drawable/quita"/>
 
                     <TextView
-                        android:text="Quíta (Quitá maráma) /\nYúqui (Yuquí maráma)"
+                        android:text="Quíta (Quitá maráma)\nYúqui (Yuquí maráma)"
                         android:id="@+id/txt_quita"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -377,7 +381,7 @@
                         android:src="@drawable/arafufu"/>
 
                     <TextView
-                        android:text="Arafúfu (Arafufú maráma)"
+                        android:text="Arafúfu \n(Arafufú maráma)"
                         android:id="@+id/txt_arafufu"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -472,7 +476,7 @@
                         android:src="@drawable/jerro"/>
 
                     <TextView
-                        android:text="Lhérro (Lherró maráma) / Jérro (Jerró maráma)"
+                        android:text="Lhérro (Lherró maráma) \nJérro (Jerró maráma)"
                         android:id="@+id/txt_jerro"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

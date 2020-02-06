@@ -113,6 +113,36 @@ public class agricultura_tradicional extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
         });
+
+        btn_afojor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, afojor.class);
+                empezarAudio(R.raw.afojor);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
+            }
+        });
+
+        btn_chiquitarequi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, chiquitarequi.class);
+                empezarAudio(R.raw.chiquitarequi);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
+            }
+        });
+
+        btn_junhoqui.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, junhoqui.class);
+                empezarAudio(R.raw.junhoqui);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
+            }
+        });
     }
 
     // Frena cualquier mp sonando y empieza el audio solicitado

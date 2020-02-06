@@ -12,12 +12,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-
-        <ImageView
+        <TextView
+            android:text="Orróqui maráma ó matíca"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#F44336"
+            android:textStyle="bold"
             android:layout_gravity="center"
-            android:src="@drawable/titulo_vocabulario1"/>
+            android:gravity="center"/>
+
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btn_ainh"
@@ -330,7 +334,7 @@
                         android:src="@drawable/afojor"/>
 
                     <TextView
-                        android:text="Afójor (Afojóra maráma)"
+                        android:text="Afójor \n(Afojóra maráma)"
                         android:id="@+id/txt_afjor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
