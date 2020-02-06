@@ -10,10 +10,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".junhoqui"></activity>
-        <activity android:name=".chiquitarequi" />
-        <activity android:name=".afojor" />
-        <activity android:name=".pina" />
+        <activity android:name=".intro_agricultura_tradicional"></activity>
+        <activity
+            android:name=".junhoqui"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".chiquitarequi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".afojor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pina"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".caju"
             android:screenOrientation="portrait" />

@@ -44,6 +44,15 @@ public class agricultura_tradicional extends AppCompatActivity {
             }
         });
 
+        btn_intro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(context, intro_agricultura_tradicional.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
+            }
+        });
+
         btn_ainh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
