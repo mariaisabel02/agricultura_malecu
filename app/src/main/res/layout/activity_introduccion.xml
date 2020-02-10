@@ -21,13 +21,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:src="@drawable/ucr_logo"
-                android:adjustViewBounds="true"
-                android:layout_gravity="center"/>
-
-            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/intro_agricultura_1"
@@ -47,9 +40,21 @@
                 android:adjustViewBounds="true"
                 android:layout_gravity="center"/>
             <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/ucr_logo"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"/>
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/creditos"
+                android:src="@drawable/creditos1"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/creditos2"
                 android:adjustViewBounds="true"
                 android:layout_gravity="center"/>
 
