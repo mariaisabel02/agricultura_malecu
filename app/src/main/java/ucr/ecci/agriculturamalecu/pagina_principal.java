@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.content.Context;
 
@@ -69,15 +70,19 @@ public class pagina_principal extends AppCompatActivity {
 
     private void mostrar_tutorial(){
         //mostrar dialogo de explicacion
-        new AlertDialog.Builder(this)
+        LayoutInflater inflater = getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.dialogo_inicio,null);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this)
                 .setTitle("¡Bienvenido!")
-                .setMessage("Para consultar haga click en un ícono")
+                .setView(dialogView)
                 .setPositiveButton("Continuar", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick (DialogInterface dialog, int which) {
                         dialog.dismiss();
             }
-        }).create().show();
+        });
+        builder.create().show();
         SharedPreferences primer_launch = getSharedPreferences("primer_launch",MODE_PRIVATE);
         SharedPreferences.Editor editor = primer_launch.edit();
         editor.putBoolean("primer_uso", false);
@@ -88,3 +93,4 @@ public class pagina_principal extends AppCompatActivity {
 
 // tutorial para desplegar mensaje la primera vez que se abre el app :
 //https://www.youtube.com/watch?v=2I1n6A6JJzw&list=LLaQ-P4qVvvTc1EPxakbKCuw&index=3&t=0s
+//https://www.android-examples.com/create-alertdialog-with-custom-xml-view-layout-file-in-android/

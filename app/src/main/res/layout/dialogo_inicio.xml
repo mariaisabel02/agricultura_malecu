@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="En la sección de Introducción encontrará detalles acerca del diccionario pictográfico y enciclopedia." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="\nEn la sección de vocabulario encontrará una selección de vocabulario que abarca plantas cultuvadas y herramientas de siembra y cosecha." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="\nEn la tercera sección encontrará información y conocimiento cultural acerca de las plantas cultivadas con fines alimenticios." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="\nEl botón con símbolo de casa le permite regresar al menú principal." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="\nEl botón con símbolo de flecha hacia la izquierda le permitirá regresar a la pantalla que vio anteriormente." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="\nEl botón con símbolo de flecha hacia la derecha le permitirá ir hacia la siguiente pantalla." />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
