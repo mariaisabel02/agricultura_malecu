@@ -23,11 +23,23 @@
                 android:layout_margin="10dp"
                 android:text="En la sección de Introducción encontrará detalles acerca del diccionario pictográfico y enciclopedia." />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="640dp"
+                android:src="@drawable/introduccion_gif"
+                />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="\nEn la sección de vocabulario encontrará una selección de vocabulario que abarca plantas cultuvadas y herramientas de siembra y cosecha." />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="640dp"
+                android:src="@drawable/vocabulario_gif"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
