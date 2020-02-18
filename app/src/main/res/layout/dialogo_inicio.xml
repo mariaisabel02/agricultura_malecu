@@ -54,8 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textColor="#FFFF"
-                android:text="\nEstas son las opciones que se le presentarán en la parte inferior de las pantallas de los objetos." />
+                android:text="\nEstas son las opciones que se le presentarán en la parte inferior de algunas pantallas." />
 
             <ImageView
                 android:layout_width="wrap_content"
