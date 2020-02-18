@@ -25,7 +25,8 @@
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="wrap_content"
-                android:layout_height="640dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:src="@drawable/introduccion_gif"
                 />
 
@@ -37,7 +38,8 @@
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="wrap_content"
-                android:layout_height="640dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:src="@drawable/vocabulario_gif"
                 />
 
@@ -46,6 +48,20 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="\nEn la tercera sección encontrará información y conocimiento cultural acerca de las plantas cultivadas con fines alimenticios." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#FFFF"
+                android:text="\nEstas son las opciones que se le presentarán en la parte inferior de las pantallas de los objetos." />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/opciones" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -57,13 +73,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="\nEl botón con símbolo de flecha hacia la izquierda le permitirá regresar a la pantalla que vio anteriormente." />
+                android:text="El botón con símbolo de flecha hacia la izquierda le permitirá regresar a la pantalla que vio anteriormente." />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="\nEl botón con símbolo de flecha hacia la derecha le permitirá ir hacia la siguiente pantalla." />
+                android:text="El botón con símbolo de flecha hacia la derecha le permitirá ir hacia la siguiente pantalla." />
 
         </LinearLayout>
     </ScrollView>
