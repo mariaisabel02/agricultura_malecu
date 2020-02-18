@@ -39,8 +39,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:src="@drawable/vocabulario_gif"
+                android:src="@drawable/vocabulario"
                 />
 
             <TextView
@@ -49,12 +48,18 @@
                 android:layout_margin="10dp"
                 android:text="\nEn la tercera sección encontrará información y conocimiento cultural acerca de las plantas cultivadas con fines alimenticios." />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/agricultura_gif"
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="\nEstas son las opciones que se le presentarán en la parte inferior de algunas pantallas." />
+
+                android:text="\nEstas son las opciones que se le presentarán en la parte inferior de las pantallas de los objetos." />
 
             <ImageView
                 android:layout_width="wrap_content"
