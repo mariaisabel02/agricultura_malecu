@@ -475,7 +475,7 @@
                         android:src="@drawable/ihuli"/>
 
                     <TextView
-                        android:text="Lhúli suírra aúnha\nJúli suírra aúnha"
+                        android:text="Júli suírra aúnha\nLhúli suírra aúnha"
                         android:id="@+id/txt_lhuli"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

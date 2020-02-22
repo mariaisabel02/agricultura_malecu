@@ -147,7 +147,7 @@ public class agricultura_tradicional extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(context, junhoqui.class);
-                empezarAudio(R.raw.junhoqui);
+                empezarAudio(R.raw.junhoqui_curu);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_der, R.anim.slide_out_izq);
             }
